@@ -1,0 +1,7 @@
+body{
+background-image: linear-gradient(blue, black, blue);
+background-repeat: no-repeat;
+background-size: cover;
+backdrop-filter: 10px;
+height: 100vh;
+}
