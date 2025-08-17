@@ -259,10 +259,49 @@
 //     console.log("bu son musbat va juft");
 // }
 
-// //8-misol
+// //8-misol agar shunchaki yoshni topish kerak bo'lsa:
 // let yosh:number | undefined | null = Number(prompt("Tug'ilgan yilingizni kiriting"))
 // let natija:number | undefined | null = 2025 - yosh
 // console.log(natija);
+
+// //8-misol agar yosh bo'yicha laqab qo'yish kerak bo'lsa
+// let yosh: number | undefined | null = Number(prompt("Yoshingizni kiriting"))
+
+// if (yosh < 0) {
+//     console.log("Yoshingizni to'g'ri kiriting!");
+// } 
+// else if (yosh >= 0 && yosh <= 2) {
+//     console.log("Siz go'daksiz asalim :)");
+// } 
+// else if (yosh >= 3 && yosh <= 9) {
+//     console.log("Siz kichkina bolasiz");
+// } 
+// else if (yosh >= 10 && yosh <= 13) {
+//     console.log("Siz o'smirinsiz :( ");
+// } 
+// else if (yosh >= 14 && yosh <= 16) {
+//     console.log("Siz o'spirinsiz :( ");
+// } 
+// else if (yosh >= 17 && yosh <= 24) {
+//     console.log("Haqiqiy hayotga endi qadam qo'ygan kichik odamsiz ");
+// } 
+// else if (yosh >= 25 && yosh <= 39) {
+//     console.log("Opacha/amaki");
+// } 
+// else if (yosh >= 40 && yosh <= 54) {
+//     console.log("Uje seryozniy odam");
+// } 
+// else if (yosh >= 55 && yosh <= 89) {
+//     console.log("Avvalambor assalomu-alaykum :)");
+// } 
+// else if (yosh >= 90 && yosh <= 1000) {
+//     console.log("Gap yo'q lekin, bosin");
+// } 
+// else {
+//     console.log("Siz odam emassiz");
+// }
+
+
 
 
 // //9-misol
